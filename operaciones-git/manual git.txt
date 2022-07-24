@@ -1,0 +1,35 @@
+1. Crear repositorio, crear README, guardar haciendo commit
+
+directo en cuenta GITHUB
+commit
+
+2. Clonar repositorio en  nuestro equipo y crear nueva rama sobre local
+
+git clone NOMBRE-REPO
+git branch NOMBRE-RAMA
+
+3. Crear nuevo folder para imagenes y docs / añadir imagenes al repositorio
+
+mkdir NOMBRE-FOLDER
+cp DIRECC-IMG DIRECC-FOLDER
+git status
+git add ARCHIVOS
+git commit -m "MENSAJE COMMIT"
+
+4. Hacer push desde rama local para crear rama GITHUB y agregar los cambios al proyecto
+
+git push fetch upsteam origin
+o
+git push --set-upstream origin main
+
+5. Crear el pull request en Gituhub
+
+6. Aprobar y hacer merge para integrar cambios desde la rama remota a la rama main
+
+7. Hacer pull en repositorio local
+
+git pull
+
+8. Enviar push al repositorio remoto
+
+git push
